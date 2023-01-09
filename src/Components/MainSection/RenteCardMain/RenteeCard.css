@@ -1,0 +1,274 @@
+.CardMain{
+    padding-top: 2rem;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+  
+}
+.CardContent{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.CardName{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 27px;
+    line-height: 54px;
+    color: #2E2E2E;
+}
+.CategorySec{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+.cardBox{
+    width: 173px;
+    height: 161px;
+    left: 100px;
+    top: 872px;
+
+    background: #020202;
+   
+    border-radius: 50%;
+}
+.cardBtn{
+    width: 160.93px;
+    height: 29.05px;
+    background: #CC5500;
+    border-radius: 0.5px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.6px;
+    line-height: 15px;
+    color: white;
+    
+}
+.MainCards{
+    display: flex;
+    justify-content: space-between;
+    object-fit: cover;
+    flex-wrap: wrap !important;
+    width: 100%;
+    gap: 2rem
+;
+    
+    
+}
+.MainViewBtn{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.ViewBtn{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.95px;
+    line-height: 24px;
+    border: none;
+    text-decoration-line: underline;
+    color:#cc5500;
+    background: none;
+}
+
+.BottomImg{
+    border-top: 1px solid #BBBBBB;
+    padding-top: 1rem;
+}
+
+
+.BottomImgStyle{
+display: flex;
+position: relative;
+/* background-image: url(../../Images/BtmImg.png); */
+max-width: 1440px;
+width: 100%;
+height: 360px;
+
+
+margin: 0 auto;
+
+}
+.ImgBtm{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.InnerImg{
+    max-width: 1440px;
+    width: 100%;
+    height: 360px;
+    position: absolute;
+    background: rgba(204, 85, 0, 0.5);
+/* filter: invert(1); */
+    border-radius: 4.74591px;
+    
+
+
+
+}
+
+.ImgHeading{
+    padding-top: 82px;
+    padding-left: 111px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 54px;
+    color: #FFFFFF;
+
+}
+
+
+
+@media (max-width : 1570px) {
+    .CardMain{
+        width: 85%;
+
+    }
+  
+    
+}
+
+
+
+@media (max-width : 416px) {
+   .CardContent{
+    align-items: center;
+
+   }
+    .MainCards{
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+}
+
+@media (max-width : 1276px) {
+    .ImgHeading{
+        font-size: 45px;
+        line-height: 45px;
+        padding-left: 45px;
+    }
+    
+}
+
+
+@media (max-width : 1024px) {
+    
+    
+    
+    .ImgHeading{
+        font-size: 40px;
+        line-height: 40px;
+        padding-left: 40px;
+    }
+    .ImgBtm{
+        height: 333px;
+    }
+    .InnerImg{
+        height: 333px;
+    }
+
+    
+}
+
+
+@media (max-width :991px) {
+    .ImgBtm{
+        height: 313px;
+    }
+    .InnerImg{
+        height: 313px;
+    }
+
+    .ImgHeading{
+        font-size: 30px;
+        line-height: 30px;
+        padding-left: 40px;
+    }
+
+}
+
+@media (max-width :769px) {
+    .ImgBtm{
+        height: 300px;
+    }
+    .InnerImg{
+        height: 300px;
+    }
+
+    .ImgHeading{
+        font-size: 25px;
+        line-height: 30px;
+        padding-left: 40px;
+    }
+
+}
+
+@media (max-width :689px) {
+    .ImgBtm{
+        height: 280px;
+    }
+    .InnerImg{
+        height: 280px;
+    }
+
+    .ImgHeading{
+        font-size: 20px;
+        line-height: 30px;
+        padding-left: 30px;
+    }
+
+}
+
+
+@media (max-width :507px) {
+    .ImgBtm{
+        height: 250px;
+    }
+    .InnerImg{
+        height: 250px;
+    }
+    .ImgHeading{
+        font-size: 18px;
+        line-height: 20px;
+        padding-left: 20px;
+        padding-top: 50px;
+    }
+
+}
+
+/* @media (max-width : 1364px) {
+
+     .cardBox{
+    width: 149px;
+    height: 143px;
+    }
+    .cardBtn{
+        width: 147.93px;
+        height: 29.05px;
+    }
+}
+
+
+
+@media (max-width : 1285px) {
+    .cardBox{
+        width: 139px;
+        height: 133px;
+        }
+        .cardBtn{
+            width: 137.93px;
+            height: 29.05px;
+        }
+    
+} */

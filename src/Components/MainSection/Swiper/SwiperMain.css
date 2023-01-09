@@ -1,0 +1,73 @@
+
+
+.swiper {
+  width: 50px;
+
+}
+.ImgTextMain{
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 33.2214px;
+  line-height: 51px;
+  /* identical to box height, or 153% */
+  
+  
+  color: #FFFFFF;
+  
+  position: absolute;
+  width: 226.85px;
+height: 61.7px;
+justify-content: center;
+display: flex;
+align-items: center;
+background: #CC5500;
+border-radius: 0px 0px 0px 4.74591px;
+}
+.firstImage{
+  display: flex;
+  align-items: flex-end;
+}
+
+.SliderMain>.swiper{
+  background-position: center;
+  background-size: cover;
+  width: 1440px;
+  max-width: 100%;
+  height: auto;
+  transition-duration: 0ms;
+  transform: translate3d(0px, 0px, -400px) rotateX(0deg) rotateY(0deg) scale(1);
+  z-index: -3;
+
+}
+
+.swiper-slide img {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.firstImage{
+  width: 800px;
+  height: 400px;
+  object-fit: cover;
+}
+/* .swiper-slide >.swiper-slide-duplicate>.swiper-slide-visible>.swiper-slide-prev{
+  width: 497.667px;
+  transition-duration: 0ms;
+  transform: translate3d(0px, 0px, -199.75px) rotateX(0deg) rotateY(-40.025deg) scale(1);
+  z-index: -1;
+
+} */
+.Swiper>.swiper-slide>.swiper-slide-duplicate-next{
+  width: 373.667px;
+  transition-duration: 0ms;
+  transform: translate3d(0px, 0px, -400.25px) rotateX(0deg) rotateY(5.025deg) scale(1);
+  z-index: -3;
+
+}
+
+.swiper-slide-shadow-left{
+
+  display: none;
+}

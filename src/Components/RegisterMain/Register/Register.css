@@ -1,0 +1,443 @@
+.RegisterMain{
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    min-height: 800px;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.ImgPortion{
+    display: flex;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+ 
+}
+
+.TextPortion{
+    display: flex;
+    width: 50%;
+    background: #FFFFFF;
+    padding-top: 157px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Img-back{
+    display: flex;
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+
+ 
+    
+}
+.LeftHead{
+    position: absolute;
+    display: flex;
+    padding-top: 100px;
+    flex-direction: column;
+    width: 35.5%;
+}
+
+.Login-Head{
+   
+    
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 95.2733px;
+    line-height: 114px;
+    color: #FFFFFF;
+    padding-bottom: 135px;
+}
+
+
+.Member{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42.9697px;
+    line-height: 64px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 9px;
+    
+
+}
+.RegisterContent{
+    width: 76%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25.0033px;
+    line-height: 131.5%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 225px;
+}
+
+
+
+.RightPortion{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.TextHead{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #CC5500;
+}
+
+.textContent{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #515151;
+}
+.InputPortion{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+
+}
+.BarsPortion{
+    display: flex;
+    
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 21px;
+}
+
+.InputBars{
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1.02041px solid #CECECE;
+    box-shadow: 0px 0px 10.2041px rgba(0, 0, 0, 0.25);
+    border-radius: 7.14286px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.4082px;
+    line-height: 31px;
+    color: #9E9E9E;
+    padding-left: 26px;
+}
+.pass-Input{
+    border: none;
+    background: none
+}
+.pass-Icon{
+    font-size: 30px;
+    color: #cc5500;
+    margin-right: 10px;
+}
+.LinkBtn{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.LinkBtn-Text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #CC5500;
+
+}
+.registerBtn{
+    display: flex;
+    justify-content: center;
+    width: 186px;
+    height: 48px;
+   
+    margin: 0 auto;
+
+    background: #CC5500;
+    border-radius: 7.14px;
+}
+.TextBtn{
+    background: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+}
+
+.PortionIcons{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+
+
+.borderIcon{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 74.63px;
+height: 74.63px;
+
+border-radius: 50%;
+
+border: 1.77698px solid #FFFFFF;
+}
+
+.imageIcons{
+    font-size: 50px;
+        color: #FFFFFF ;
+    
+}
+
+.SecregisterBtn{
+    display: flex;
+    width: 186px;
+    height: 48px;
+   
+    margin: 0 auto;
+
+    border: 2px solid #CC5500;
+    border-radius: 7.14px;
+    justify-content: center;
+    align-items: center;
+}
+.SecTextBtn{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 28px;
+    color: #CC5500;
+    background: none;
+}
+
+
+
+
+
+@media (max-width : 1439px) {
+    .RegisterMain{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+}
+
+
+
+
+@media (max-width : 1349px) {
+    .LeftHead{
+        padding-top: 98px;
+
+    }
+    .Login-Head{
+        font-size: 79.2733px;
+        line-height: 92px;
+    }
+    .Member{
+        font-size: 36.9697px;
+    line-height: 56px;
+
+    }
+    .RegisterContent{
+        padding-bottom: 218px;
+        font-size: 24.0033px;
+        line-height: 125.5%;
+
+    }
+    
+}
+
+
+@media (max-width : 1277px) {
+
+     .LeftHead{
+        padding-top: 89px;
+
+    }
+    .Login-Head{
+        font-size: 69.2733px;
+        line-height: 82px;
+    }
+    .Member{
+        font-size: 30.9697px;
+    line-height: 66px;
+
+    }
+    .RegisterContent{
+        padding-bottom: 218px;
+        font-size: 20.0033px;
+        line-height: 120.5%;
+
+    }
+}
+
+
+@media (max-width :1207px) {
+    .LeftHead{
+        padding-top: 81px;
+
+    }
+    .Login-Head{
+        font-size: 59.2733px;
+        line-height: 72px;
+    }
+    .Member{
+        font-size: 30.9697px;
+    line-height: 66px;
+
+    }
+      .RegisterContent{
+        padding-bottom: 180px;
+        font-size: 20.0033px;
+        line-height: 120.5%;
+
+    }
+}
+
+
+@media (max-width :1007px) {
+    .LeftHead{
+        padding-top: 81px;
+
+    }
+    .Login-Head{
+        font-size: 59.2733px;
+        line-height: 72px;
+    }
+    .Member{
+        font-size: 30.9697px;
+    line-height: 66px;
+
+    }
+      .RegisterContent{
+        padding-bottom: 150px;
+        font-size: 20.0033px;
+        line-height: 120.5%;
+
+    }
+}
+
+
+@media (max-width : 882px) {
+    .LeftHead{
+        padding-top: 81px;
+
+    }
+    .Login-Head{
+        font-size: 49.2733px;
+        line-height: 62px;
+    }
+    .Member{
+        font-size: 25.9697px;
+    line-height: 66px;
+
+    }
+      .RegisterContent{
+        padding-bottom: 150px;
+        font-size: 18.0033px;
+        line-height: 120.5%;
+
+    }
+}
+
+
+
+@media (max-width : 737px) {
+    .RegisterMain{
+        flex-direction: column-reverse;
+    }
+    .Img-back{
+        height: 500px;
+
+    }
+    .ImgPortion{
+        width: 100%;
+    }
+    .TextPortion{
+        width: 100%;
+    }
+    .LeftHead{
+
+    width: 80%;
+    margin: 0 auto;
+
+        padding-top: 20px;
+
+    }
+    .Login-Head{
+        font-size: 49.2733px;
+        line-height: 62px;
+        padding-bottom: 33px;
+
+    }
+    .Member{
+        font-size: 25.9697px;
+    line-height: 66px;
+
+    }
+      .RegisterContent{
+        width: 100%;
+        padding-bottom: 113px;
+        font-size: 16.0033px;
+        line-height: 120.5%;
+
+    }
+    .LinkBtn{
+        justify-content: center;
+
+    }
+    .borderIcon{
+        width: 54px;
+        height: 54px;
+    }
+    .imageIcons{
+        font-size: 30px;
+
+    }
+
+
+}
+
+
+
+@media (max-width : 488px) {
+    .Img-back{
+        height: 450px;
+    }
+}
+
+@media (max-width : 376px) {
+    .Img-back{
+        height: 400px;
+    }
+    .RegisterContent{
+        padding-bottom: 50px;
+    }
+}

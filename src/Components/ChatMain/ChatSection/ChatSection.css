@@ -1,0 +1,468 @@
+.Chat-Main {
+    padding: 1rem 0;
+
+}
+
+.MainShade-box {
+    background-image: url(../../Images/Group.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 86.22px;
+    border: 1px solid #cacaca;
+    background-position: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0.36);
+    /* background: rgba(0, 0, 0, 0.15); */
+    border-radius: 5px;
+    margin-bottom: 31px;
+
+
+}
+
+.Heading {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 40.15px;
+    font-family: 'Urbanist';
+    color: black;
+}
+
+.Chat-Section {
+    display: flex;
+    margin: 0 auto;
+    width: 1360px;
+    max-width: 95%;
+    background: #FFFFFF;
+    border: 1px solid #ADADAD;
+    border-radius: 11.33px;
+    flex-direction: column;
+  
+
+}
+
+.Sended-Chat {
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+    margin-left: 30px;
+    gap: 2rem;
+}
+.RplySended-Chat{
+    display: flex;
+    margin-top: 32px;
+    margin-right: 30px;
+    gap: 2rem;
+    flex-direction: row-reverse;
+}
+.Chat-Img {
+    width: 92.7px;
+    height: 92.7px;
+    border-radius: 50%;
+
+
+}
+.SecChat-Img{
+    width: 92.7px;
+    height: 92.7px;
+    border-radius: 50%;
+    display: flex;
+    align-self: self-start;
+
+
+}
+.chat-name--inner{
+    display: flex;
+    align-items: flex-end;
+    
+
+}
+
+.Chat-Name {
+
+    /* margin-left: 30px; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22.0048px;
+    line-height: 33px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.Chat-date {
+    color: #666666;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.Chat-des {
+
+    width: 80%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.047px;
+    line-height: 27px;
+
+    color: #353535;
+
+}
+.Sec-ChatName{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22.0048px;
+    line-height: 33px;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.Rply-Chat {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+}
+
+.RplyChat-Img {
+    border-radius: 50%;
+    margin-top: 29px;
+    margin-right: 30px;
+
+}
+
+.RplyChat {
+    align-items: flex-end;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.RplyChat-Name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22.0048px;
+    line-height: 33px;
+    
+
+}
+
+.RplyChat-date {
+    color: #666666;
+    font-size: 15px;
+   
+
+}
+
+.RplyChat-des {
+    display: flex;
+    align-items: flex-end;
+
+    width: 80%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.047px;
+    line-height: 27px;
+   
+
+    color: #353535;
+}
+
+
+
+
+
+.SecRplyChat-Img {
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-right: 30px;
+
+}
+
+.SecRplyChat {
+    align-items: flex-end;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.SecSended-Chat {
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+    margin-left: 30px;
+    gap: 1rem;
+
+}
+
+.line {
+  
+    width: 1316px;
+
+   position: absolute;
+   
+    /* margin-left: 40px; */
+    top: 650px;
+    z-index: 1000;
+    border: 2px solid #D9D9D9;
+}
+
+.ChatInput-bar {
+    border-top:2px solid #D9D9D9;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 26px auto 0 auto;
+    width: 95%;
+    
+    /* justify-content: space-between; */
+  
+    padding-bottom: 22px;
+  
+
+}
+
+.ChatInput-Search {
+    width: 933px;
+    max-width: 80%;
+    height: 55px;
+    margin-top: 26px;
+    padding-left: 23px;
+    margin-right: 10px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.Send-btn{
+    margin-left: 20px;
+}
+
+.ChatSend-button {
+    background: #cc5500;
+    color: white;
+    width: 118px;
+    height: 55px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Urbanist', sans-serif;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0.36);
+    border: none;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+    /* margin-top: 20px; */
+}
+
+.Chat-Icons {
+    margin-top: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Chat-Icon {
+    display: flex;
+    margin-right: 5px;
+    justify-content: center;
+    align-items: center;
+
+    width: 55px;
+    height: 55px;
+    border: 2px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+}
+.Btn-parent{
+    max-width: 1440px;
+    
+    margin: 0 auto;
+
+}
+
+.SecNext-Btn {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 31px;
+
+
+}
+
+.SecNxt-Btn {
+    width: 144.7px;
+    height: 51px;
+    background: #CC5500;
+    box-shadow: 0px 0px 5.93023px rgba(0, 0, 0, 0.36);
+    border-radius: 7px;
+    border: none;
+    color: white;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24.35px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+@media (max-width : 1450px) {
+
+    .Chat-Section {
+        width: 95%;
+
+        margin: 0 auto;
+    }
+
+    .ChatInput-bar {
+        width: 95%;
+        margin: 0 auto;
+       
+    }
+
+   
+
+
+
+
+}
+
+
+
+@media (max-width : 991px) {
+
+    
+    .Chat-des{
+        width: 90%;
+        font-size: 16.047px;
+        line-height: 24px;
+    }
+    .ChatSend-button{
+        width: 100px;
+        height: 45px;
+        font-size: 16px;
+        font-weight: 500;
+
+    }
+    .SecNxt-Btn {
+        width: 124.7px;
+        height: 41px;
+        font-weight: 600;
+        font-size: 22.35px;
+        
+    }
+
+
+}
+
+@media (max-width : 850px) {
+
+    .Chat-des{
+        font-size: 15.047px;
+        line-height: 23px;
+    }
+    
+}
+
+
+@media (max-width : 768px) {
+    .ChatInput-bar{
+        display: flex;
+        flex-direction:column ;
+    }
+    .ChatInput-bar{
+        width: 80%;
+    }
+    .ChatSend-button{
+        width: 80px;
+        height: 40px;
+        font-size: 16px;
+        font-weight: 500;
+
+    }
+
+}
+
+
+@media (max-width : 677px) {
+    .Chat-des{
+        font-size: 14.047px;
+        line-height: 22px;
+    }
+
+}
+
+
+
+
+@media (max-width : 520px) {
+
+    .Sended-Chat{
+        margin-top: 22px;
+        margin-left: 20px;
+    }
+    .RplySended-Chat{
+        margin-top: 22px;
+        margin-right: 20px;
+
+    }
+    
+}
+
+
+@media (max-width : 425px) {
+ .Sended-Chat{
+    flex-direction: column;
+    gap: 0.5rem;
+ }
+
+ .RplySended-Chat{
+    gap: 0.5rem;
+    flex-direction: column;
+      
+    
+ }
+ .Chat-des{
+    width: 95%;
+ }
+ .Chat-Icon{
+    width: 35px;
+    height: 35px;
+
+ }
+ .ChatSend-button{
+    width: 70px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+    
+}
+
+@media (max-width : 421px){
+    .SecChat-Img{
+        align-self: end;
+
+    }
+}

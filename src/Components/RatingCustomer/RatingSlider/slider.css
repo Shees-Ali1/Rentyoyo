@@ -1,0 +1,188 @@
+@import "rsuite/dist/rsuite.css";
+
+
+
+
+
+.steps-container{
+    max-width: 1440px;
+    width: 85%;
+    margin: auto;
+    display: flex;
+   
+    margin-top: 30px;
+    position: relative;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.progress{
+    width: 98%;
+    margin: auto;
+    height: auto;
+    background: none;
+}
+.Progress-NumberSize{
+    width: 96.5%;
+    margin: 0 auto;
+}
+
+.Progress-Number {
+        max-width: 100%;
+        /* gap: 17.4rem; */
+        align-items: center;
+        margin: auto;
+        display: flex;
+        /* justify-content: center; */
+        justify-content: space-between;
+}
+/* .rs-steps-item-title {
+    display: flex;
+    position: relative;
+    font-size: 16px;
+    line-height: -12.125;
+    min-height: 19px;
+    padding-right: 17px;
+    display: inline-block;
+} */
+
+.rs-steps-item {
+    padding-left: px;
+    position: relative;
+    /* overflow: hidden; */
+}
+.rs-steps-horizontal{
+    
+    width: 100%;
+}
+
+
+.rs-steps-item-icon-wrapper > .rs-steps-item-icon .rs-icon {
+    display: none;
+ 
+}
+
+.rs-steps-item-icon-wrapper {
+    border: 15px solid #CC5500;
+}
+
+.rs-steps-item-icon-wrapper > .rs-steps-item-icon {
+
+    display: none;
+    
+}
+
+.rs-steps-item-status-finish .rs-steps-item-icon-wrapper {
+   
+    border-color:#cc5500;
+    
+}
+
+.rs-steps-item-status-process .rs-steps-item-icon-wrapper {
+   
+    border-color: #cc5500;
+    
+    
+}
+    
+.rs-steps-horizontal .rs-steps-item:not(:first-child) .rs-steps-item-icon-wrapper {
+    left: 7px;
+}
+
+.rs-steps-item-status-finish .rs-steps-item-tail, .rs-steps-item-status-finish .rs-steps-item-title::after {
+    /* border-color: #f44336; */
+    border: 4px solid #cc5500;
+}
+.rs-steps-horizontal .rs-steps-item-title::after {
+   
+    top: 11px;
+     /* border: 3px solid #2F2F2F; */
+
+
+}
+
+
+
+.rs-steps-item{
+    overflow: visible !important;
+}
+.rs-steps-item-tail{
+    display: none !important;
+}
+.rs-steps-item {
+    padding-left: 29px;
+    
+}
+.rs-steps-horizontal .rs-steps-item:not(:first-child) {
+    padding-left: 37px;
+}
+
+.progress>.rs-steps>.rs-steps-item-status-process>.rs-steps-item-content>.rs-steps-item-content>.rs-steps-item-title::after{
+    border: 3px solid black;
+}
+
+
+@media (max-width : 591px) {
+    .Progress-Number {
+        width: 68.9%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .progress {
+        width: 72%;
+        margin: auto;
+        height: auto;
+        background: none;
+    }
+    .rs-steps-item {
+        padding-left: 0px;
+    }
+    
+}
+
+
+@media (max-width : 500px) {
+   
+   
+   
+    .steps-container{
+        max-width: 1440px;
+        width: 45%;
+        display: flex;
+        margin-left:0px !important ;
+        margin-top: 30px;
+        position: relative;
+        flex-direction: initial;
+        
+
+    }
+    .progress{
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .Progress-Number{
+        flex-direction: column;
+        gap: 1.6rem;
+    }
+    .rs-steps{
+        flex-direction: column;
+        height: 300px;
+        align-items: flex-start;
+    }
+
+    .rs-steps-horizontal>.rs-steps-item-status-finish>.rs-steps-item-icon-wrapper{
+        left: 6px !important;
+    }
+    .rs-steps-item-title::after{
+        width: 0;
+        height: 200px;
+    }
+    .rs-steps-horizontal .rs-steps-item-title::after{
+        left: 18px !important;
+        height: 275px;
+        width: 0 !important;
+    }
+
+}

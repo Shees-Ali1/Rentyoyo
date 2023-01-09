@@ -1,0 +1,129 @@
+.FirstSectionMain{
+    /* max-width: 1440px; */
+    width: 100%;
+    margin: 0 auto;
+    padding: 29px 0 29px 0;
+    background-image: url('../../Images/Rentee.png');
+    border-bottom: 2px solid #898989;
+    background-position: cover;
+}
+.Rentee-Heading{
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 7px;
+}
+.RenteeHead{
+    width: 50%;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 54px;
+    text-align: center;
+    color: #000000;
+}
+.Rentee-day{
+    display: flex;
+    justify-content: center;
+    
+}
+.Rentee-Content{
+    max-width: 1440px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 21px;
+}
+.RenteeContentHead{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #898989;
+}
+.SliderMain{
+    width: 800px;
+    margin: 0 auto;
+}
+.SliderMain>.swiper {
+    width: 800px;
+    /* padding-top: 50px; */
+    /* padding-bottom: 50px; */
+}
+
+
+
+@media (max-width : 1269px) {
+    .RenteeHead{
+        width: 70%;
+
+    }
+    
+}
+
+
+@media (max-width :1024px) {
+
+    .RenteeHead{
+        font-size: 44px;
+        line-height: 46px;
+    }
+    .RenteeContentHead{
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media (max-width : 905px) {
+    .RenteeHead{
+        width: 100%;
+
+    }
+}
+
+
+@media (max-width : 575px) {
+    .RenteeHead{
+        font-size: 36px;
+        line-height: 37px;
+    }
+    .RenteeContentHead{
+        font-size: 15px;
+        line-height: 19px;
+    }
+    
+    
+}
+
+
+@media (max-width : 456px) {
+    .RenteeHead{
+        font-size: 30px;
+        line-height: 31px;
+    }
+    .RenteeContentHead{
+        font-size: 15px;
+        line-height: 19px;
+    }
+}
+
+@media (max-width : 378px) {
+    .RenteeHead{
+        font-size: 28px;
+        line-height: 29px;
+    }
+    .RenteeContentHead{
+        font-size: 15px;
+        line-height: 19px;
+    }
+}
+
+

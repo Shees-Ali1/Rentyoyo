@@ -1,0 +1,222 @@
+.Main-footer{
+    display: flex;
+    width: 100%;
+    padding-bottom: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    border-top: 1px solid #000000;
+}
+.Footer-Main{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-left: 2rem;
+
+    
+
+}
+.Icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+ 
+    
+   
+}
+.logo{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.Footer-head{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    color: #000000;
+    margin-bottom:17px ;
+}
+.Mail-text{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 28px;
+    color: #707070;
+    margin-bottom: 44px;
+}
+.Info-footer{
+    display: flex;
+    flex-direction: column;
+ 
+    padding-top: 2rem;
+    
+    
+    
+    
+}
+.Info-Srvc{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    justify-content: center;
+}
+.Footer-SecMain{
+  
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5rem;
+   
+    
+    padding-right: 5rem;
+    
+    
+}
+.click{
+    
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 139.5%;
+    color: #000000;
+    padding-top: 0.5rem;
+    
+}
+
+@media (max-width : 1385px) {
+
+   .click{
+    font-size: 20px;
+   }
+    
+}
+
+
+@media (max-width : 1331px) {
+
+
+    .Info-Srvc{
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 30px;
+    }
+   
+    .Footer-SecMain{
+        gap: 3rem;
+    }
+
+    
+}
+
+@media (max-width : 1110px) {
+    .Footer-Main{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .Info-footer{
+        font-size: 20px;
+    }
+    .click{
+        
+        font-size: 19px;
+    }
+    .Footer-SecMain{
+        width: 50%;
+        gap: 3rem;
+    }
+    
+}
+
+@media (max-width : 1080px) {
+    .Footer-Main{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .Info-footer{
+        font-size: 18px;
+    }
+    .click{
+        
+        font-size: 17px;
+    }
+    .Footer-SecMain{
+        width: 50%;
+        gap: 2rem;
+    }
+    
+}
+
+@media (max-width : 991px) {
+      .Footer-Main{
+        padding: 0;
+        width: unset;
+      }
+    .Main-footer{
+        width: 100%;
+        align-items: center !important;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .Info-Srvc{
+        font-size: 20px;
+     
+    }
+    .Footer-head{
+        margin-bottom: 10px;
+    }
+    .Mail-text{
+        margin-bottom: 20px;
+    }
+    .Footer-SecMain{
+        width: unset;
+       
+        margin: 0 auto;
+        gap: 3rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding-right: 0rem;
+       
+     
+    }
+    
+}
+
+@media (max-width : 449px) {
+    
+    .Footer-head{
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+    .Mail-text{
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .Footer-SecMain{
+        gap: 2rem;
+    }
+    .Info-Srvc{
+        font-size: 17px;
+    }
+    .click{
+        font-size: 13px;
+
+    }
+    
+}
+

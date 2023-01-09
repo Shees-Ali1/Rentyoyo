@@ -1,0 +1,92 @@
+.RenteedHours{
+    display: flex;
+    width: 102px;
+    height: 212px;
+    background-color: black;
+    border-radius: 42px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48.51px;
+    line-height: 59px;
+    color: #FFFFFF;
+    position: relative;
+}
+.RenteedTimer-Coln{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 57.51px;
+    color: black;
+}
+.RenteedcardHours{
+  
+    width: 102px;
+    height: 212px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: -7px;
+    overflow-y: scroll;
+    top: 0px;
+    border-radius: 42px;
+}
+.RenteedSecCardHours{
+    width: 102px;
+    height: 212px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    overflow-y: scroll;
+    top: 0px;
+    border-radius: 42px;
+
+}
+.RenteedAmPMCardHours{
+    width: 46px;
+    height: 94px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    position: absolute;
+    align-items: center;
+    top: 0px;
+    border-radius: 20px;
+}
+.RenteeD-N{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 46px;
+    height: 94px;
+    text-align: center;
+    background: black;
+    border-radius: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    align-self: center;
+}
+.RenteedhoursTxt{
+    font-size: 20px;
+}
+
+
+@media (max-width : 450px) {
+    .RenteedHours{
+        width: 85px;
+        height: 158px;
+    }
+}

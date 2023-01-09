@@ -1,0 +1,279 @@
+.MainListSection{
+    padding-top: 1rem;
+}
+.ListItemCard{
+    display: flex;
+    gap: 10px;
+}
+.Main-Section-Card{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+.ListItemCard{
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.CardParent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.Main-ImgCard{
+    width: 135.01px;
+    height: 117.84px;
+    background: #020202;
+    border-radius: 50%;
+}
+.btn-ImgCard{
+    width: 125.59px;
+    height: 22.67px;
+    background: #CC5500;
+    border-radius: 0.3902px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.btn-CardText{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9.83305px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+.MainListCard{
+   
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    
+}
+.Main-Section-Card{
+    margin-bottom: 20px;
+}
+
+
+.SecMainFirstCard{
+    border: 1px solid #ADADAD;
+    border-radius: 12.01px; 
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+   
+    height: auto;
+    padding: 1rem;
+    gap: 10px;
+
+}
+
+.SecFirstPartyCard{
+    width: 25%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+
+}
+.SecImgPrnt{
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+
+}
+.SecShadeImg{
+    position: relative;
+    width: 306.47px;
+    height: 172.57px;
+      
+    
+    filter: drop-shadow(0px 0px 4.98689px rgba(0, 0, 0, 0.42));
+    border-radius: 12.0089px; 
+
+}
+.Main-SecPartyMainImg{
+    display: flex;
+    width: 306.47px;
+    height: 172.57px;
+}
+.SecContent{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    justify-content: flex-start;
+
+}
+.SecContentName{
+    display: flex;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17.2627px;
+    
+    text-align: center;
+    color: #000000;
+
+}
+.SecContentDesc{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16.5122px;
+    line-height: 20px;
+
+    color: #2F2B2B;
+}
+.SecContentPrice{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21.0155px;
+    line-height: 25px;
+
+    color: #CC5500;
+
+}
+.SecSenderDetail{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+.SecImgChat{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.SlickMain{
+    
+    
+    width: 85%;
+
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.MainPages{
+    margin-bottom: 20px;
+}
+
+@media (max-width : 1440px) {
+    .MainListCard{
+        width: 90%;
+    }
+    .SecShadeImg{
+        width: 250.47px;
+
+    }
+    .Main-SecPartyMainImg{
+        width: 250.47px;
+
+    }
+}
+
+
+
+
+@media (max-width : 1174px) {
+    .SecShadeImg{
+        width: 220.47px;
+        height: auto;
+
+    }
+    .Main-SecPartyMainImg{
+        width: 220.47px;
+        height: auto;
+
+    }
+    .SecContentDesc{
+        font-size: 13.5122px;
+        line-height: 17px;
+
+    }
+    .SecContentPrice{
+        font-size: 17.0155px;
+        line-height: 19px;
+
+    }
+    
+}
+
+
+
+@media (max-width : 1045px) {
+    .SecMainFirstCard {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+    .SecImgPrnt{
+        justify-content: center;
+    }
+    .SecImgChat{
+        width: 34px;
+    }
+    .SecFirstPartyCard {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+}
+
+
+
+@media (max-width : 509px) {
+
+
+    .SecContentName{
+        font-size: 16.2627px;
+
+    }
+    .SecContentDesc{
+        font-size: 10.5122px;
+    line-height: 11px;
+
+    }
+    .SecImgChat {
+        width: 33px;
+    }
+}
+
+
+
+@media (max-width : 445px) {
+
+.SecFirstPartyCard{
+    flex-direction: column;
+    width: 72%;
+}
+.SecContentDesc {
+    font-size: 10.5122px;
+    line-height: 11px;
+    width: 100%;
+}
+.SecNxt-Btn {
+    width: 112.7px;
+    height: 36px;
+    font-weight: 600;
+    font-size: 18.35px;
+}
+
+    
+}

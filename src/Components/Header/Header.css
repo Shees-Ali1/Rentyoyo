@@ -1,0 +1,195 @@
+.navbar-brand{
+    width: 35%;
+    color: #cc5500;
+    font-size: 33px;
+    line-height: 39.6px;
+    font-weight: 700;
+    font-family: 'Urbanist', sans-serif;
+  
+}
+.navbar{
+    border-bottom: 1px solid #B3B3B3;
+}
+
+
+.me-auto{
+    width: 100%;
+}
+.Input-bar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 0;
+}
+.Input-Search{
+    width: 333px;
+    height: 43px;
+    border: 1.5px solid #CACACA;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-right: 10px;
+   padding-left: 23px;
+   font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #B6B6B6;
+}
+
+
+.renterBtn{
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-link{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #7D7D7D;
+    font-family: 'Urbanist', sans-serif;
+}
+.Renter-Secbutton{
+
+    width: 187px;
+    height: 43px;
+    background: white;
+    border: 1.5px solid #cc5500;
+    color: #cc5500;
+    border-radius: 7px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: 'Urbanist', sans-serif;
+    
+}
+
+
+
+.Search-button{
+   
+   background: #cc5500;
+   color: white;
+   width: 122px;
+   height: 43px;
+   font-size: 18px;
+   font-weight: 600;
+   font-family: 'Urbanist', sans-serif;
+   border-radius: 7px;
+   box-shadow: 0px 0px 5px rgba(0,0,0.36);
+    border: none;
+ 
+}
+@media (max-width : 1580px) {
+    .navbar-brand{
+        width: 30%;
+    }
+    
+}
+@media (max-width :1480px) {
+    .navbar-brand{
+        width: 30%;
+    }
+    .Input-bar{
+        width: 80%;
+    }
+    .renterBtn{
+        width: 50%;
+        margin-left: 54px;
+
+    }
+    .Renter-Secbutton{
+        width: 100%;
+    }
+    
+}
+@media (max-width : 1280px) {
+    .navbar-brand{
+        width: 30%;
+    }
+    .Input-bar{
+        width: 50%;
+    }
+    .Search-button{
+        font-size: 20px;
+    }
+    .renterBtn{
+        width: 50%;
+        
+        
+    }
+    .Renter-Secbutton{
+        font-size: 1rem;
+    }
+    .nav-link{
+       width: 100%;
+        font-size: 1rem;
+    }
+   
+    
+}
+
+@media (max-width : 1080px) {
+    .navbar-brand{
+        max-width: 20%;
+    }
+
+    
+}
+
+@media (max-width : 991px) {
+    .navbar-collapse {
+        background: rgba(231, 154, 72, 0.813);
+       
+        flex-direction: column;
+    }
+    .Input-bar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 10px;
+        
+    
+    }
+    .Search-button{
+        margin-top: 10px;
+        font-size: 18px;
+
+    }
+    .renterBtn{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+       
+     
+        
+        margin-left: 10px;
+
+        
+       
+    }
+    .Renter-Secbutton{
+        align-items: flex-start;
+        margin-left: 0;
+        font-size: 15px;
+    }
+  
+    .Input-Search{
+        width: 222px;
+        height: 33px;
+        
+    }
+    .nav-link{
+        font-size: 18px;
+    }
+    
+}
+
+
+
+
+

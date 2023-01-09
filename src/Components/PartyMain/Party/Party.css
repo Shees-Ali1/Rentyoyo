@@ -1,0 +1,450 @@
+.PartyMain{
+    padding-top: 1rem;
+}
+
+.PartyCards{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    max-width: 1382px;
+    width: 100%;
+    margin: 0 auto;
+    gap: 1rem;
+    
+  
+
+}
+.MainFirstCard{
+    border: 1px solid #ADADAD;
+    border-radius: 12.01px; 
+    display: flex;
+    height: 232px;
+    padding: 1rem;
+    gap: 10px;
+    
+
+}
+.FirstPartyCard{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.clrCheckBox{
+    display: flex;
+    width: 18.39px;
+height: 18.39px;
+
+
+background: #CC5500;
+border-radius: 4.50333px;
+  /* border: 5px solid #CC5500;
+  border-radius: 50%;
+  color: #CC5500;
+  justify-content: center; */
+   
+}
+.StyleCheckBox{
+    display: flex;
+    align-items: center;
+    width: 26.27px;
+    height: 26.27px;
+    justify-content: center;
+    align-items: center;
+
+    border: 1.50111px solid #CC5500;
+    border-radius: 4.50333px;
+
+    /* background-color:#CC5500 ; */
+
+    /* border-color: #CC5500; */
+   
+}
+.PartyMainImg{
+    position: absolute;
+    
+    display: flex;
+    width: 300.47px;
+    height: 172.57px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+   
+    border-radius: 12.0089px;
+    
+   
+}.ImgPrnt{
+    display: flex;
+    align-items: center;
+    /* flex-direction: ; */
+}
+.ShadeImg{
+    position: relative;
+    width: 306.47px;
+    height: 172.57px;
+      
+    
+    filter: drop-shadow(0px 0px 4.98689px rgba(0, 0, 0, 0.42));
+    border-radius: 12.0089px; 
+
+}
+
+.SecPartyMainImg{
+    display: flex;
+    width: 306.47px;
+    height: 172.57px;
+}
+
+.Content{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    gap: 10px;
+    justify-content: flex-start;
+}
+.ContentName{
+    display: flex;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17.2627px;
+    
+    text-align: center;
+    color: #000000;
+}
+
+.ContentDesc{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16.5122px;
+    line-height: 20px;
+
+    color: #2F2B2B;
+}
+
+.ContentPrice{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21.0155px;
+    line-height: 25px;
+
+    color: #CC5500;
+}
+.SenderDetail{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.ImgChat{
+    width: 40px;
+    border-radius: 50%;
+}
+.MainPages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.borderPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        width: 46px;
+    height: 46px;
+    border-radius: 50%;
+   
+
+    background: #CC5500;
+}
+.SecborderPage{
+    width: 46px;
+    height: 46px;
+    border: 2px solid #CC5500;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.SizePage{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+.SecSizePage{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 34px;
+    color: #CC5500;
+    background: none;
+    
+}
+.dots{
+    width: 12px;
+    height: 12px;
+    background: #CC5500;
+    border-radius: 50%;
+}
+
+
+
+
+
+@media (max-width : 1292px) {
+    .FirstPartyCard{
+        gap: 0.5rem;
+    }
+    .StyleCheckBox{
+        width: 22.39px;
+        height: 22.39px;
+    }
+    .clrCheckBox{
+        width: 15.39px;
+        height: 15.39px;
+    }
+    .ShadeImg{
+
+    width: 292.47px;
+    height: 168.57px;
+
+
+    }
+    .SecPartyMainImg{
+
+    width: 292.47px;
+    height: 168.57px;
+    }
+
+}
+
+
+@media (max-width : 1225px) {
+    
+    .ContentDesc{
+        font-weight: 700;
+        font-size: 14.5122px;
+        line-height: 18px;
+    }
+}
+
+
+@media (max-width : 1292px) {
+    .FirstPartyCard{
+        gap: 0.5rem;
+    }
+    .StyleCheckBox{
+        width: 21.39px;
+        height: 20.39px;
+    }
+    .clrCheckBox{
+        width: 13.39px;
+        height: 13.39px;
+    }
+    .ShadeImg{
+
+    width: 278.47px;
+
+
+
+    }
+    .SecPartyMainImg{
+
+    width: 278.47px;
+ 
+    }
+    .ContentDesc{
+        font-weight: 700;
+        font-size: 13.5122px;
+        line-height: 17px;
+    }
+    .ContentPrice{
+        font-size: 19.0155px;
+        line-height: 20px;
+    }
+
+}
+
+
+
+
+@media (max-width : 1035px) {
+    .FirstPartyCard{
+        gap: 0.5rem;
+    }
+    .StyleCheckBox{
+        width: 20.39px;
+        height: 17.39px;
+    }
+    .clrCheckBox{
+        width: 10.39px;
+        height: 10.39px;
+    }
+    .ContentPrice{
+        font-size: 16.0155px;
+        line-height: 20px;
+    }
+    /* .ShadeImg{
+
+        width: 278.47px;
+    }
+    .SecPartyMainImg{
+
+        width: 278.47px;
+ 
+    }
+    .ContentDesc{
+        font-weight: 700;
+        font-size: 13.5122px;
+        line-height: 17px;
+    } */
+
+}
+
+
+@media (max-width : 991px) {
+    .FirstPartyCard{
+        width: 100%;
+        
+    }
+    .Content{
+        width: 100%;
+    }
+    .MainFirstCard{
+       
+        flex-direction: column;
+        height: 432px;
+        gap: 0px;
+    }
+    .borderPage{
+        width: 40px;
+    height: 40px;
+    }
+    .SecborderPage{
+        width: 40px;
+        height: 40px;
+
+    }
+    
+}
+
+
+@media (max-width : 596px) {
+
+    .ShadeImg{
+
+        width: 218.47px;
+        height: auto;
+    
+    
+    
+        }
+        .SecPartyMainImg{
+    
+        width: 218.47px;
+        height: auto;
+     
+        }
+        .Content{
+            width: 50%;
+            gap: 5px;
+        }
+        .ContentDesc{
+            font-weight: 700;
+            font-size: 13.5122px;
+            line-height: 17px;
+        }
+        .ContentPrice{
+            font-size: 15.0155px;
+            line-height: 21px;
+        }
+        .borderPage{
+            width: 37px;
+        height: 37px;
+        }
+        .SecborderPage{
+            width: 37px;
+            height: 37px;
+    
+        }
+    
+}
+
+
+@media (max-width : 514px) {
+    .ContentDesc {
+        font-weight: 700;
+        font-size: 10.5122px;
+        line-height: 17px;
+    }
+    
+}
+
+
+
+@media (max-width : 493px) {
+    
+    .ShadeImg{
+
+        width: 262.47px;
+        height: auto;
+    
+    
+    
+        }
+        .SecPartyMainImg{
+    
+        width: 262.47px;
+        height: auto;
+     
+        } 
+        .ImgPrnt{
+            width: 100%;
+        }
+    .StyleCheckBox{
+        display: none;
+     }
+     .FirstPartyCard{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+     }
+     .MainFirstCard {
+        flex-direction: column;
+        height: 600px;
+        gap: 7px;
+    }
+    .Content {
+        width: 100%;
+        gap: 5px;
+    }
+    .borderPage{
+        width: 30px;
+    height: 30px;
+    }
+    .SecborderPage{
+        width: 30px;
+        height: 30px;
+
+    }
+    .SizePage{
+        font-size: 17px;
+
+    }
+    .SecSizePage{
+        font-size: 17px;
+
+    }
+}

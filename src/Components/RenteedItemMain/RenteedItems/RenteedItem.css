@@ -1,0 +1,31 @@
+.renteedItemMain{
+    padding-top: 3rem;
+}
+
+.renteedItemHead{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+.rI-Text{
+width: 50%;
+margin: 0 auto;
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 143%;
+/* or 57px */
+
+text-align: center;
+
+color: #2F2B2B;
+}
+
+
+@media (max-width : 1420px) {
+    .renteedItemHead{
+        width: 80%;
+    }
+    
+}

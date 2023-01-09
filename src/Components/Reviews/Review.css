@@ -1,0 +1,81 @@
+.Main-ReviewBox{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 31px;
+}
+.Review-box{
+    width: 100%;
+    padding: 1.2rem;
+    gap: 15px;
+  
+   display: flex;
+   flex-direction: column;
+    max-width: 1078px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border: 0.942982px solid #ADADAD;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 11.3252px;
+}
+
+.ReviewData{
+    width: 90%;
+    margin: 0 auto;
+   
+
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.RatingStar{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29.0935px;
+    line-height: 35px;
+    color: #CC5500;
+}
+
+.RatingNumber{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29.0935px;
+    line-height: 35px;
+    color: #CC5500;
+}
+
+
+@media (max-width : 1140px) {
+    .Main-ReviewBox {
+     
+        width: 91%;
+        margin: 0 auto;
+        margin-bottom: 31px;
+    }
+    
+}
+
+@media (max-width : 991px) {
+    .Main-ReviewBox{
+        width: 80%;
+
+    }
+    
+}
+
+@media (max-width : 648px) {
+    .Review-box{
+        gap: 10px;
+    }
+    .RatingStar{
+        font-size: 25px;
+
+    }
+    .RatingNumber{
+        font-size: 25px;
+    }
+    
+}
